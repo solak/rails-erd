@@ -57,21 +57,21 @@ module RailsERD
         :concentrate => true,
         :labelloc => :t,
         :fontsize => 13,
-        :fontname => "Arial Bold"
+        :fontname => "Arial-BoldMT"
       }
 
       # Default node attributes.
       NODE_ATTRIBUTES = {
         :shape => "Mrecord",
         :fontsize => 10,
-        :fontname => "Arial",
+        :fontname => "ArialMT",
         :margin => "0.07,0.05",
         :penwidth => 1.0
       }
 
       # Default edge attributes.
       EDGE_ATTRIBUTES = {
-        :fontname => "Arial",
+        :fontname => "ArialMT",
         :fontsize => 8,
         :dir => :both,
         :arrowsize => 0.9,
